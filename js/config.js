@@ -10,8 +10,8 @@
  * sem precisar de API nem login — util para ver e testar a interface.
  */
 
-export const MODO_DEMO = true;
+export const MODO_DEMO = false;
 
-export const API_URL = 'COLE_AQUI_A_URL_EXEC_DA_API';
+export const API_URL = 'https://script.google.com/macros/s/AKfycbyb4UWMVSTXpM9vJIxHLW_yRAsMYrAsCQxZX0-t_GQ9VI9gwMY20-PfA3J08ho5Lex46w/exec';
 
-export const GOOGLE_CLIENT_ID = 'COLE_AQUI_O_ID_DE_CLIENTE_OAUTH';
+export const GOOGLE_CLIENT_ID = '117087945071-jtqfqhg0oqu6er5q8fsgq4loal71nb79.apps.googleusercontent.com';
