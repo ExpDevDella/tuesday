@@ -59,7 +59,8 @@ function chamarDemo(payload) {
 
 /* ---- interface unica ---------------------------------------------------- */
 function chamar(payload) {
-  return MODO_DEMO ? Promise.resolve(chamarDemo(payload)) : chamarApi(payload);
+  // return MODO_DEMO ? Promise.resolve(chamarDemo(payload)) : chamarApi(payload);
+  return chamarApi(payload);
 }
 
 export const api = {
